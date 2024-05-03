@@ -62,7 +62,7 @@ while True:
         print("\n--------- Extrato ---------\n")
         print("Não foram realizadas movimentações." if not extrato else extrato)
         print(f"\nSeu saldo é de R$ {saldo:.2f}")
-        print("\n------------Fim------------")
+        print("\n----------- Fim -----------")
 
     elif opcao == "q":
         print("\nAgradecemos a preferência!")
